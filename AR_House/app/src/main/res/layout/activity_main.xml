@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sceneform_fragment"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintVertical_weight="1">
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/resolve_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resolve" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/sceneform_fragment"
+        android:name="com.Shubham.Jain.AR_House.CustomArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/button_layout"
+        app:layout_constraintBottom_toTopOf="@+id/gallery_layout"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintVertical_weight="8"
+        />
+
+    <LinearLayout
+        android:id="@+id/gallery_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sceneform_fragment"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintVertical_weight="1">
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
