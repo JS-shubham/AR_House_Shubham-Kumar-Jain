@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\VIT Chennai MCA\\ITA5005 - Object Oriented Software Engineering\\Research paper\\ARCore-Furniture-master-2\\ARCore-Furniture-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rDO\\values-es-rDO.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shubham\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.4.0.aar\\2c67b877b8ca40a7cbf136211fe43175\\res\\values-es-rDO\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,243,295,394,494",
+                        "endColumns": "48,51,98,99,62",
+                        "endOffsets": "242,294,393,493,556"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,164,267,371",
+                        "endColumns": "52,55,102,103,66",
+                        "endOffsets": "103,159,262,366,433"
+                    }
+                }
+            ]
+        }
+    ]
+}

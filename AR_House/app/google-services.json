@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "911313188830",
+    "firebase_url": "https://arhouse-5fc36.firebaseio.com",
+    "project_id": "arhouse-5fc36",
+    "storage_bucket": "arhouse-5fc36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911313188830:android:709e60629ef7edf4d58f4f",
+        "android_client_info": {
+          "package_name": "edu.wpi.jlyu.sceneformfurniture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911313188830-hcnb5985bq9um1nl3r97r42q0hlt45o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuJXU15-fW132i1cuuad1bZzOzXu6CRQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911313188830-hcnb5985bq9um1nl3r97r42q0hlt45o7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

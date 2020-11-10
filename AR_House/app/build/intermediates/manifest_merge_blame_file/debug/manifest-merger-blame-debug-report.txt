@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.wpi.jlyu.sceneformfurniture"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:27:5-65
+11-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:27:22-62
+12
+13    <uses-feature
+13-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:28:5-87
+14        android:name="android.hardware.camera.ar"
+14-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:28:19-60
+15        android:required="true" />
+15-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:28:61-84
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:30:5-67
+17-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:30:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:24:5-79
+18-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:24:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:25:5-68
+19-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:25:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:26:22-79
+21
+22    <permission
+22-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:28:5-30:47
+23        android:name="edu.wpi.jlyu.sceneformfurniture.permission.C2D_MESSAGE"
+23-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:29:9-63
+24        android:protectionLevel="signature" />
+24-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:30:9-44
+25
+26    <uses-permission android:name="edu.wpi.jlyu.sceneformfurniture.permission.C2D_MESSAGE" />
+26-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:32:5-79
+26-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:32:22-76
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30
+31    <application
+31-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:5:5-25:19
+32        android:allowBackup="true"
+32-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:6:9-35
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:7:9-43
+36        android:label="@string/app_name"
+36-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:8:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:9:9-54
+38        android:supportsRtl="true"
+38-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:10:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:11:9-40
+41        <activity android:name="com.Shubham.Jain.AR_House.MainActivity" >
+41-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:12:9-18:20
+41-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:12:19-72
+42            <intent-filter>
+42-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:13:13-17:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:14:17-69
+43-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:14:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:16:17-77
+45-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:16:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:19:9-21:32
+50            android:name="com.google.android.ar.API_KEY"
+50-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:20:13-57
+51            android:value="" />
+51-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:21:13-29
+52        <meta-data
+52-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:23:9-81
+53            android:name="com.google.ar.core"
+53-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:23:20-53
+54            android:value="required" />
+54-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:23:54-78
+55
+56        <uses-library
+56-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:24:9-87
+57            android:name="org.apache.http.legacy"
+57-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:24:23-60
+58            android:required="false" />
+58-->E:\VIT Chennai MCA\ITA5005 - Object Oriented Software Engineering\Research paper\ARCore-Furniture-master-2\AR_House\app\src\main\AndroidManifest.xml:24:61-85
+59
+60        <receiver
+60-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:28:9-32:20
+61            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+61-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:29:13-85
+62            android:enabled="true"
+62-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:30:13-35
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:31:13-37
+64        </receiver>
+65        <receiver
+65-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:33:9-41:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+66-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:34:13-100
+67            android:enabled="true"
+67-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:35:13-35
+68            android:exported="true"
+68-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:36:13-36
+69            android:permission="android.permission.INSTALL_PACKAGES" >
+69-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:37:13-69
+70            <intent-filter>
+70-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:38:13-40:29
+71                <action android:name="com.android.vending.INSTALL_REFERRER" />
+71-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:39:17-79
+71-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:39:25-76
+72            </intent-filter>
+73        </receiver>
+74
+75        <service
+75-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:43:9-46:40
+76            android:name="com.google.android.gms.measurement.AppMeasurementService"
+76-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:44:13-84
+77            android:enabled="true"
+77-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:45:13-35
+78            android:exported="false" />
+78-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:46:13-37
+79        <service
+79-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:47:9-51:72
+80            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+80-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:48:13-87
+81            android:enabled="true"
+81-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:49:13-35
+82            android:exported="false"
+82-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:50:13-37
+83            android:permission="android.permission.BIND_JOB_SERVICE" />
+83-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\a7b825785f1ca4a31682fc9cf8202a8f\firebase-analytics-11.8.0\AndroidManifest.xml:51:13-69
+84
+85        <receiver
+85-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:35:9-44:20
+86            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+86-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:36:13-78
+87            android:exported="true"
+87-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:37:13-36
+88            android:permission="com.google.android.c2dm.permission.SEND" >
+88-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:38:13-73
+89            <intent-filter>
+89-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:39:13-43:29
+90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+90-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:40:17-81
+90-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:40:25-78
+91
+92                <category android:name="edu.wpi.jlyu.sceneformfurniture" />
+92-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:42:17-61
+92-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:42:27-58
+93            </intent-filter>
+94        </receiver>
+95        <!--
+96             FirebaseInstanceIdService performs security checks at runtime,
+97             no need for explicit permissions despite exported="true"
+98        -->
+99        <service
+99-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:50:9-56:19
+100            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+100-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:51:13-77
+101            android:exported="true" >
+101-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:52:13-36
+102            <intent-filter android:priority="-500" >
+102-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:53:13-55:29
+102-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:53:28-51
+103                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+103-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:54:17-80
+103-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\5b1d6df9b0de896feefc282330d78775\firebase-iid-11.8.0\AndroidManifest.xml:54:25-77
+104            </intent-filter>
+105        </service>
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\62b87eecc14ab8b9aa9d05d07fdc79d9\firebase-common-11.8.0\AndroidManifest.xml:8:9-12:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\62b87eecc14ab8b9aa9d05d07fdc79d9\firebase-common-11.8.0\AndroidManifest.xml:9:13-77
+109            android:authorities="edu.wpi.jlyu.sceneformfurniture.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\62b87eecc14ab8b9aa9d05d07fdc79d9\firebase-common-11.8.0\AndroidManifest.xml:10:13-72
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\62b87eecc14ab8b9aa9d05d07fdc79d9\firebase-common-11.8.0\AndroidManifest.xml:11:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\62b87eecc14ab8b9aa9d05d07fdc79d9\firebase-common-11.8.0\AndroidManifest.xml:12:13-36
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\291a6a7d157b3fd6d83b617e4d8483f7\play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\291a6a7d157b3fd6d83b617e4d8483f7\play-services-basement-11.8.0\AndroidManifest.xml:24:13-58
+115            android:value="@integer/google_play_services_version" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+115-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\291a6a7d157b3fd6d83b617e4d8483f7\play-services-basement-11.8.0\AndroidManifest.xml:25:13-66
+116        <activity
+116-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:33:9-39:80
+117            android:name="com.google.ar.core.InstallActivity"
+117-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:34:13-62
+118            android:configChanges="keyboardHidden|orientation|screenSize"
+118-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:35:13-74
+119            android:excludeFromRecents="true"
+119-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:36:13-46
+120            android:exported="false"
+120-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:37:13-37
+121            android:launchMode="singleTop"
+121-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:38:13-43
+122            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+122-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:39:13-77
+123        <meta-data
+123-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:41:9-43:41
+124            android:name="com.google.ar.core.min_apk_version"
+124-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:42:13-62
+125            android:value="180626000" />
+125-->[com.google.ar:core:1.4.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\9c9e1f20a870f628a30ea3f95a3f2843\core-1.4.0\AndroidManifest.xml:43:13-38
+126    </application>
+127
+128</manifest>
